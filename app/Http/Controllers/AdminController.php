@@ -15,4 +15,14 @@ class AdminController extends Controller
     {
         return view('admin.admin_homepage');
     }
+
+    public function admin_user_monitoring()
+    {
+        return view('admin.admin_user_monitoring');
+    }
+
+    public function admin_barterplace()
+    {
+        return view('admin.admin_barterplace');
+    }
 }   

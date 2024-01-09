@@ -21,3 +21,7 @@ Route::get('/', function () {
 Route::get('/admin-dashboard', [AdminController::class, 'admin_dashboard']) -> name('admindashboard');
 
 Route::get('/admin-dashboard/home', [AdminController::class, 'admin_homepage']) -> name('adminhomepage');
+
+Route::get('/admin-dashboard/user/monitoring', [AdminController::class, 'admin_user_monitoring']) -> name('adminusermonitoring');
+
+Route::get('admin-dashboard/barterplace', [AdminController::class, 'admin_barterplace']) -> name('adminbarterplace');

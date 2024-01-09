@@ -12,12 +12,12 @@
     <section class="bg-teal-700 text-gray-200 font-semibold">
         <nav>
             <ul class="flex flex-row justify-center gap-24 py-4">
-               <li><a href="{{route('adminhomepage')}}">Home</a></li>
-               <li><a href="{{route('adminhomepage')}}">Home</a></li>
-               <li><a href="{{route('adminhomepage')}}">Home</a></li>
-               <li><a href="{{route('adminhomepage')}}">Home</a></li>
-               <li><a href="{{route('adminhomepage')}}">Home</a></li>
-               <li><a href="{{route('adminhomepage')}}">Home</a></li>
+               <li class="hover:underline"><a href="{{route('adminhomepage')}}">Home</a></li>
+               <li class="hover:underline"><a href="{{route('adminusermonitoring')}}">User Monitoring</a></li>
+               <li class="hover:underline"><a href="{{route('adminbarterplace')}}">Barterplace</a></li>
+               <li class="hover:underline"><a href="#">Customer Support</a></li>
+               <li class="hover:underline"><a href="#">Inquiry</a></li>
+               <li class="hover:underline"><a href="#">Options</a></li>
             </ul>
         </nav>
     </section>
